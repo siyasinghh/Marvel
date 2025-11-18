@@ -1,0 +1,170 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    padding-top: 20px;
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search
+{
+    padding-top: 25px;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img
+{
+    height: 45px;
+}
+.searchbar
+{
+    width: 80%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.boxx
+{
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+}
+.searchpng
+{
+    height: 16px;
+}
+.movies
+{
+    width: 100%;
+    padding: 50px 5%;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6.5%;
+    row-gap: 25px;
+}
+.movie
+{
+    background-color: brown;
+    width: 20%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 0, 0) ;
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+    cursor: pointer;
+      
+}
+.overlay:hover
+{
+    opacity: 1;
+}
+.video
+{
+    width: 100%;
+    height: 50%;
+}
+.details
+{
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 7px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.poster
+{
+    width: 100%;
+    height: 100%;
+    
+}
+#footer {
+    background-color: #000000; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center;
+  }
+  
+
+  #footer-content-table {
+    display: table; 
+    width: 100%; 
+    margin: 0 auto; 
+  }
+  
+  
+  .footer-box {
+    display: table-cell;
+    padding: 10px; 
+    vertical-align: top; 
+  }
+  
+  .contact-us .footer-box-title {
+    margin-bottom: 10px; 
+  }
+  
+  .footer-contact {
+    display: block; 
+  }
+  
+  .footer-contact img {
+    width: 70px; 
+    height: 50px;
+  }
+  
+  
+  .other-links .footer-box-title {
+    margin-bottom: 10px; 
+  }
+  
+  
+  .footer-link {
+    color: inherit; 
+    text-decoration: none; 
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .footer-link:hover {
+    color: #ddd;
+  }
